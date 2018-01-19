@@ -1,0 +1,541 @@
+/*header开始*/
+.header {
+    height: 42px;
+    background: #333;
+    margin: 0 auto;
+}
+
+.header .wrpr {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.header .wrpr a:hover {
+    text-decoration: underline;
+}
+
+.header .header-left {
+    float: left;
+    line-height: 42px;
+    font-size: 14px;
+    color: #b0b0b0;
+}
+
+.header .header-left a {
+    font-size: 12px;
+    color: #b0b0b0;
+    text-decoration: none;
+
+}
+
+.header .header-left .spac {
+    line-height: 42px;
+    margin: 0 3px;
+    font-size: 12px;
+    font-style: normal;
+    color: rgba(255, 255, 255, .5);
+}
+
+.header .header-right {
+    float: right;
+    line-height: 42px;
+}
+
+.header .header-right a {
+    color: #b0b0b0;
+    text-decoration: none;
+}
+
+.header .header-right .header-right-links {
+    float: left;
+}
+
+.header .header-right .header-right-links.a {
+    font-size: 13px;
+}
+
+.header .header-right .shop-car {
+    float: left;
+    background: #424242;
+    padding: 0 15px;
+    margin-left: 15px;
+}
+
+.header .header-right .shop-car a {
+    font-size: 15px;
+}
+
+/*header结束*/
+/*头部导航条开始*/
+.nav {
+    width: 1226px;
+    margin: 20px auto 0;
+}
+
+.nav .logo {
+    background: #000000;
+    float: left;
+    margin-top: 20px;
+}
+
+.nav .logo img {
+    width: 49px;
+    height: 49px;
+}
+
+.nav .nav-wrpr {
+    margin-left: 218px;
+}
+
+.nav .nav-wrpr .nav-wrpr-item li {
+    float: left;
+    line-height: 100px;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #333;
+}
+
+.nav .nav-wrpr .nav-wrpr-item li a {
+    font-size: 30px;
+}
+
+.nav .rearch {
+    float: right;
+    margin-top: 20px;
+    border: 1px solid #E0E0E0;
+
+}
+
+.nav .rearch input {
+    float: left;
+    border: none;
+    width: 230px;
+    height: 50px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+}
+
+.nav .rearch button {
+    float: left;
+    border: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #333;
+    background: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border-left: 1px solid #e0e0e0;
+    outline: none;
+}
+
+/*头部导航条结束*/
+/*bannner开始*/
+.banner {
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner .banner-side {
+    width: 234px;
+    padding: 20px 0px;
+    background: #5A0E0E;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.banner .banner-side ul li {
+    line-height: 42px;
+
+    font-size: 14px;
+
+}
+
+.banner .banner-side ul li a {
+    padding-left: 30px;
+    padding-right: 25px;
+    display: block;
+    color: #fff;
+}
+
+.banner .banner-side ul li a:after {
+    content: '>';
+    float: right;
+}
+
+.banner .banner-side ul li a:hover {
+    background: #FF6700;
+    text-decoration: none;
+}
+
+/*banner 结束 */
+/*homek开始*/
+.home {
+    width: 1226px;
+    margin: 20px auto;
+}
+
+.home .class1 {
+    float: left;
+    width: 225px;
+    background: #333333;
+    padding: 5px;
+    height: 160px;
+}
+
+.home .class1 ul li {
+    margin: 0 5px 15px 0px;
+    float: left;
+    width: 70px;
+    height: 72px;
+    text-align: center;
+    margin-right: 5px;
+    line-height: 35px;
+    border: 1px solid #e0e0e0;
+}
+
+.home .class1 ul .left {
+    border-left: 0px;
+}
+
+.home .class1 ul .right {
+    border-right: 0px;
+}
+
+.home .class1 ul .bottom {
+    border-bottom: 0px;
+}
+
+.home .class1 ul .top {
+    border-top: 0px;
+}
+
+.home .class1 ul .last {
+    margin-right: 0;
+}
+
+.home .class1 ul li a {
+    text-decoration: none;
+    color: #e5e5e5;
+    font-size: 12px;
+}
+
+.home .class2 {
+    float: right;
+}
+
+.home .class2 img {
+    float: left;
+    width: 315px;
+    height: 170px;
+    margin-left: 15px;
+}
+
+.home .class1 a:hover {
+    text-decoration: underline;
+}
+
+/*home结束*/
+/*star开始*/
+.star {
+    width: 1226px;
+    margin: 20px auto;
+}
+
+.star h2 {
+    line-height: 58px;
+    font-size: 22px;
+    color: #424242;
+    font-weight: 500;
+}
+
+.star ul {
+    width: 1226px;
+}
+
+.star ul li {
+    float: left;
+    width: 234px;
+    height: 339px;
+    background: #e0e0e0;
+    margin-right: 14px;
+    border-top: 1px solid #FF6700;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+.star ul li img {
+    width: 160px;
+    height: 160px;
+    padding: 0 0;
+}
+
+.star ul li h6 {
+    margin: 12px 0 15px;
+}
+
+.star ul li h6 a {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 200;
+}
+
+.star ul li p {
+    font-size: 14px;
+    color: #FF6700;
+    margin: 0;
+}
+
+.star ul li .p {
+    font-size: 12px;
+    color: #b0b0b0;
+    margin: 10px 0;
+}
+
+#c {
+    margin-right: 0;
+}
+
+/*star结束*/
+/*smart开始*/
+.smart {
+    background-color: #f1f1f1;
+    margin: 60px auto 0;
+    padding: 60px 0;
+}
+
+.smart h3 {
+    width: 1226px;
+    line-height: 58px;
+    font-size: 22px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+.smart ul {
+    width: 1226px;
+    margin: auto;
+}
+
+.smart ul .class2 {
+    float: left;
+    margin-right: 14px;
+}
+
+.smart ul .class2 img {
+    width: 234px;
+    height: 300px;
+}
+
+.smart ul .class1 {
+    float: left;
+    width: 234px;
+    height: 270px;
+    margin-right: 14px;
+    text-decoration: none;
+    text-align: center;
+    background: #FFFFFF;
+    padding-top: 30px;
+}
+
+.smart ul .class1 a h5 {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.smart ul .class1 a .p {
+    text-decoration: none;
+    color: #b0b0b0;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+.smart ul .class1 a p .c1 {
+    color: #FF6700;
+    font-size: 12px;
+}
+
+.smart ul .class1 a p .c2 {
+    color: #b0b0b0;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.smart ul .last {
+    margin-right: 0;
+}
+
+.smart ul .class1 img {
+    width: 150px;
+    height: 150px;
+}
+
+/*smart结束*/
+/*<!--nine开始-->*/
+.nine {
+    width: 1226px;
+    margin: 20px auto 40px;
+}
+
+.nine .c1 ul {
+    border-bottom: 1px solid #FF6700;
+}
+
+.nine .c1 ul li {
+    float: left;
+    width: 20%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.nine .c1 ul li a {
+    color: #333333;
+    font-size: 20px;
+}
+
+.nine .c1 a:hover {
+    color: #FF6700;
+    text-decoration: none;
+}
+
+.nine .c2 a:hover {
+    color: #FF6700;
+    text-decoration: none;
+}
+
+.nine .c2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nine .c2 ul li dl {
+    float: left;
+    width: 160px;
+    height: 112px;
+}
+
+.nine .c2 ul li dl dt {
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: #333333;
+}
+
+.nine .c2 ul li dl dd {
+    margin-top: 5px;
+}
+
+.nine .c2 ul li dl dd a {
+    color: #b0b0b0;
+    font-size: 12px;
+}
+
+.nine .c2 ul .l1 {
+    float: right;
+    width: 252px;
+    height: 112px;
+    text-align: center;
+}
+
+.nine .c2 ul li .p1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #FF6700;
+}
+
+.nine .c2 ul li .p2 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #b0b0b0;
+    padding-top: 5px;
+}
+
+.nine .c2 ul li div {
+    padding-top: 30px;
+}
+
+.nine .c2 ul li div span {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FF6700;
+    border: 1px solid #FF6700;
+    padding: 5px;
+
+}
+
+/*<!--nine结束-->*/
+/*footer stsr*/
+.footer {
+    background: #FAFAFA;
+}
+
+.footer .bgc {
+    width: 1226px;
+    margin: 20px auto;
+}
+
+.footer .one {
+    float: left;
+    width: 800px;
+}
+
+.footer .one .d1 {
+    width: 49px;
+    height: 49px;
+    float: left;
+}
+
+.footer .one .d2 {
+    width: 751px;
+    float: left;
+}
+
+.footer .one .d2 a {
+    display: inline-block;
+    font-size: 12px;
+    color: #757575;
+    padding: 0 8px;
+}
+
+.footer .one .d2 i {
+    font-style: normal;
+    color: #757575;
+}
+
+.footer .one .d2 p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #757575;
+    padding-left: 8px;
+}
+
+.footer .two {
+    float: right;
+    width: 426px;
+}
+
+.footer .two img {
+    float: right;
+    width: 83px;
+    height: 23px;
+}
+
+/*fooer end*/
+.th {
+    width: 1226px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.th p {
+    font-size: 16px;
+    color: #757575;
+    margin: 0 auto;
+}
