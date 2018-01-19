@@ -317,7 +317,6 @@
     padding: 0;
 }
 .star .left .y{
-    line-height: 30px;
     text-align: center;
     float: left;
     width: 28.5px;
@@ -328,8 +327,15 @@
     background: #FFFFFF;
 
 }
-.star .left .y i{
-    font-style:normal ;
+.star .left .y a{
+    line-height: 28px;
+    display: block;
+    width: 28.5px;
+    height: 28px;
+}
+.star .left .y a:hover{
+    color: #FF6700;
+    text-decoration: none;
 }
 .star .left .last{
     border-left: 0px;
