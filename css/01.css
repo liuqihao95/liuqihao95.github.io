@@ -1,0 +1,172 @@
+/*通用的*/
+* {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+/*头部导航开始*/
+.header {
+    width: 100%;
+    padding: 0 90px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    background: #000;
+    z-index: 998;
+}
+
+.header ul li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #FF6700;
+}
+
+.header p {
+    margin: 0;
+}
+
+.header p a {
+    color: #FF6700;
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    color: #FFf;
+}
+
+.header p a:hover {
+    color: #FFf;
+}
+
+/*头部导航结束*/
+/*头部图片开始*/
+.nav {
+    /*background-image: url("../images/bg.png");*/
+    background: #642F50;
+    height: 430px;
+    padding: 120px 0 80px;
+}
+
+.nav .container .p1 {
+    color: #fff;
+    line-height: 100px;
+    font-size: 100px;
+    padding: 15px 0;
+}
+
+.nav .container .p2 {
+    color: #fff;
+    line-height: 30px;
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+.nav .container .p3 a {
+    color: #5e5e5e;
+    line-height: 14px;
+    font-size: 14px;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.nav .container .p3 a:hover {
+    color: #fff;
+}
+
+/*头部图片结束*/
+/*广告条开始*/
+.gugo {
+    background: #F5F5F5;
+    padding: 0 459px;
+}
+
+.gugo ul li {
+    padding: 0 10px;
+    line-height: 60px;
+    list-style: none;
+}
+
+.gugo ul li a {
+    line-height: 60px;
+    color: #FF6700;
+    font-size: 20px;
+
+}
+
+/*广告条结束*/
+/*title开始 */
+/*title结束*/
+/*body开始*/
+.body .container > div {
+    padding: 0 15px;
+    width: 285px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.body > div > p {
+    border: 1px solid #FF6700;
+}
+
+.body .container div .p {
+    border: 1px solid #000;
+    padding: 1px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.body .container div .p div:nth-child(1) > img {
+    width: 251px;
+}
+
+.body .container div .p div:nth-child(2) {
+
+}
+
+.body .container div .p div:nth-child(2) > h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.body .container div .p div:nth-child(2) > h3 > a {
+    display: block;
+    margin: 10px 0;
+
+}
+
+/*body结束*/
+/*footer开始*/
+.footer .container .pull-left {
+    width: 555px;
+    height: 103px;
+    padding: 0px 15px;
+}
+
+.footer .container .pull-right {
+    width: 457.5px;
+    height: 120px;
+    padding: 0px 15px;
+    margin-left: 97.5px;
+}
+
+.footer .container .pull-right div {
+    width: 25%;
+    height: 120px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+/*footer结束*/
+.footer .container .oo {
+    border-top: 1px solid #FF6700;
+    margin: 30px;
+    line-height: 30px;
+    font-size: 28px;
+    padding: 30px;
+}
